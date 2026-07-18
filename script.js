@@ -1,255 +1,204 @@
 
-
-let originalQuestions = [
+let originalQuestions =  [
   {
-    "q": "John Cadbury opened his first shop in ________.",
+    "q": "The speaker tells us that we are not alone when life is ________.",
     "options": [
-      "London",
-      "Manchester",
-      "Birmingham",
-      "Liverpool"
+      "happy",
+      "easy",
+      "difficult",
+      "pleasant"
     ],
-    "answer": "Birmingham"
+    "answer": "difficult"
   },
   {
-    "q": "John Cadbury opened his first shop in the year ________.",
+    "q": "The 'dame will fly' refers to ________.",
     "options": [
-      "1822",
-      "1824",
-      "1831",
-      "1842"
+      "good",
+      "care",
+      "smile",
+      "road"
     ],
-    "answer": "1824"
+    "answer": "care"
   },
   {
-    "q": "John Cadbury was ______ years old when he started his business.",
+    "q": "The speaker tells us to smile even when life is ________.",
     "options": [
-      "20",
-      "21",
-      "22",
-      "25"
+      "easy",
+      "difficult",
+      "pleasant",
+      "successful"
     ],
-    "answer": "22"
+    "answer": "difficult"
   },
   {
-    "q": "John Cadbury belonged to the ________ community.",
+    "q": "Frowns are thorns and smiles are ________.",
     "options": [
-      "Roman Catholic",
-      "Hindu",
-      "Quaker",
-      "Muslim"
+      "flowers",
+      "blossoms",
+      "fruits",
+      "leaves"
     ],
-    "answer": "Quaker"
+    "answer": "blossoms"
   },
   {
-    "q": "John Cadbury first sold all of the following EXCEPT ________.",
+    "q": "Which of these statements best describes the poem?",
     "options": [
-      "Tea",
-      "Coffee",
-      "Cocoa",
-      "Biscuits"
+      "We should smile only when we are happy.",
+      "Life has no difficulties.",
+      "We should approach life with a smile and a positive attitude.",
+      "Smiling is not important."
     ],
-    "answer": "Biscuits"
+    "answer": "We should approach life with a smile and a positive attitude."
   },
   {
-    "q": "John Cadbury prepared cocoa using a ________.",
+    "q": "Who is the poet of the poem 'Smiles'?",
     "options": [
-      "Grinder",
-      "Mixer",
-      "Mortar and pestle",
-      "Rolling stone"
+      "Robert Frost",
+      "Ella Wheeler Wilcox",
+      "William Blake",
+      "Rabindranath Tagore"
     ],
-    "answer": "Mortar and pestle"
+    "answer": "Ella Wheeler Wilcox"
   },
   {
-    "q": "John Cadbury advertised his products in the ________.",
+    "q": "The poem teaches us to face life with ________.",
     "options": [
-      "The Times",
-      "Birmingham Gazette",
-      "Daily News",
-      "London Journal"
+      "fear",
+      "anger",
+      "a smile",
+      "silence"
     ],
-    "answer": "Birmingham Gazette"
+    "answer": "a smile"
   },
   {
-    "q": "John Cadbury started a small factory in ________.",
+    "q": "The word 'frown' means ________.",
     "options": [
-      "1824",
-      "1831",
-      "1842",
-      "1861"
+      "to smile",
+      "to laugh",
+      "to look unhappy",
+      "to sleep"
     ],
-    "answer": "1831"
+    "answer": "to look unhappy"
   },
   {
-    "q": "The small factory was located at ________.",
+    "q": "The opposite of 'smile' is ________.",
     "options": [
-      "Green Street",
-      "King Road",
-      "Crooked Lane",
-      "Victoria Road"
+      "laugh",
+      "frown",
+      "shine",
+      "cheer"
     ],
-    "answer": "Crooked Lane"
+    "answer": "frown"
   },
   {
-    "q": "By 1842, John Cadbury sold ________ varieties of cocoa and chocolate products.",
+    "q": "The poem encourages us to help ________ people.",
     "options": [
-      "10",
-      "12",
-      "14",
-      "16"
+      "rich",
+      "troubled",
+      "famous",
+      "clever"
     ],
-    "answer": "16"
+    "answer": "troubled"
   },
   {
-    "q": "The cocoa import duty was reduced by ________.",
+    "q": "Every heart has its ________.",
     "options": [
-      "King George",
-      "Queen Victoria",
-      "William Gladstone",
-      "George Cadbury"
+      "joy",
+      "load",
+      "victory",
+      "treasure"
     ],
-    "answer": "William Gladstone"
+    "answer": "load"
   },
   {
-    "q": "Reducing the cocoa tax made chocolate ________.",
+    "q": "The poet asks us to smile ________ our tears.",
     "options": [
-      "More expensive",
-      "Hard to buy",
-      "More affordable",
-      "Less popular"
+      "before",
+      "through",
+      "without",
+      "after"
     ],
-    "answer": "More affordable"
+    "answer": "through"
   },
   {
-    "q": "The first chocolate bar was made by adding ________.",
+    "q": "The 'road' in the poem symbolizes ________.",
     "options": [
-      "Milk",
-      "Sugar",
-      "Cocoa butter",
-      "Honey"
+      "a highway",
+      "a village path",
+      "the journey of life",
+      "a playground"
     ],
-    "answer": "Cocoa butter"
+    "answer": "the journey of life"
   },
   {
-    "q": "Who joined John Cadbury in the family business?",
+    "q": "'Fate's bitter tonic' refers to ________.",
     "options": [
-      "William and James",
-      "Richard and George",
-      "Henry and Charles",
-      "Peter and Thomas"
+      "a sweet drink",
+      "life's hardships",
+      "good luck",
+      "medicine from a doctor"
     ],
-    "answer": "Richard and George"
+    "answer": "life's hardships"
   },
   {
-    "q": "George Cadbury created a milk chocolate bar in ________.",
+    "q": "The word 'pilgrims' in the poem refers to ________.",
     "options": [
-      "1842",
-      "1861",
-      "1904",
-      "1920"
+      "tourists",
+      "students",
+      "people travelling through life's journey",
+      "teachers"
     ],
-    "answer": "1904"
+    "answer": "people travelling through life's journey"
   },
   {
-    "q": "The chocolate made with extra milk was named ________.",
+    "q": "What happens when we turn a smiling face upon Care?",
     "options": [
-      "Highland Milk",
-      "Dairy Maid",
-      "Jersey",
-      "Dairy Milk"
+      "Care becomes stronger",
+      "Care flies away",
+      "Care smiles back",
+      "Nothing happens"
     ],
-    "answer": "Dairy Milk"
+    "answer": "Care flies away"
   },
   {
-    "q": "Who suggested the name 'Dairy Milk'?",
+    "q": "According to the poet, smiles are like ________.",
     "options": [
-      "John Cadbury",
-      "George Cadbury",
-      "A customer",
-      "William Gladstone"
+      "thorns",
+      "stones",
+      "blossoms",
+      "clouds"
     ],
-    "answer": "A customer"
+    "answer": "blossoms"
   },
   {
-    "q": "By the early 1920s, ________ had become the leading chocolate in the UK.",
+    "q": "According to the poem, frowns are like ________.",
     "options": [
-      "Highland Milk",
-      "Jersey",
-      "Dairy Maid",
-      "Dairy Milk"
+      "flowers",
+      "stars",
+      "thorns",
+      "diamonds"
     ],
-    "answer": "Dairy Milk"
+    "answer": "thorns"
   },
   {
-    "q": "Decorative chocolate boxes were mainly used as ________.",
+    "q": "What should we do when we meet troubled people?",
     "options": [
-      "Lunch boxes",
-      "Storage boxes",
-      "Gift boxes",
-      "Toy boxes"
+      "Ignore them",
+      "Laugh at them",
+      "Smile and encourage them",
+      "Walk away"
     ],
-    "answer": "Gift boxes"
+    "answer": "Smile and encourage them"
   },
   {
-    "q": "Why did John Cadbury encourage people to drink cocoa?",
+    "q": "What is the central message of the poem 'Smiles'?",
     "options": [
-      "It was cheap.",
-      "It was colourful.",
-      "It was a healthy alternative to alcohol.",
-      "It was imported."
+      "Life should be taken seriously without smiling.",
+      "Smiling makes life happier and helps us face difficulties.",
+      "Only successful people should smile.",
+      "Smiling is useful only during celebrations."
     ],
-    "answer": "It was a healthy alternative to alcohol."
-  },
-  {
-    "q": "Why was chocolate considered a luxury in the early days?",
-    "options": [
-      "It was difficult to make.",
-      "It spoiled quickly.",
-      "Cocoa beans were imported and expensive.",
-      "It was available only in winter."
-    ],
-    "answer": "Cocoa beans were imported and expensive."
-  },
-  {
-    "q": "Which quality helped Cadbury become successful?",
-    "options": [
-      "Colourful advertisements only",
-      "Low prices only",
-      "Quality products and purity",
-      "Selling sweets only"
-    ],
-    "answer": "Quality products and purity"
-  },
-  {
-    "q": "Which event happened FIRST?",
-    "options": [
-      "Dairy Milk became popular.",
-      "George Cadbury created milk chocolate.",
-      "John Cadbury started a factory.",
-      "John Cadbury opened his first shop."
-    ],
-    "answer": "John Cadbury opened his first shop."
-  },
-  {
-    "q": "Which of the following is NOT a name suggested for the new milk chocolate?",
-    "options": [
-      "Highland Milk",
-      "Jersey",
-      "Dairy Maid",
-      "Chocolate King"
-    ],
-    "answer": "Chocolate King"
-  },
-  {
-    "q": "What is the main idea of this lesson?",
-    "options": [
-      "How to make chocolates at home.",
-      "The history of tea and coffee.",
-      "The journey of John Cadbury and the growth of the Cadbury chocolate business.",
-      "How to advertise newspapers."
-    ],
-    "answer": "The journey of John Cadbury and the growth of the Cadbury chocolate business."
+    "answer": "Smiling makes life happier and helps us face difficulties."
   }
 ];
 
